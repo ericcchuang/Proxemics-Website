@@ -1,5 +1,7 @@
 :root{
     --tan1: #d9d2be;
+    --tan-pres: #E4DBC8;
+    --lightblue: #5ba3cf;
 }
 
 body{
@@ -20,4 +22,8 @@ body{
     overflow: hidden; 
     border-radius: 8px;
     will-change: transform;
+}
+
+.navbar{
+    background-color: var(--lightblue);
 }
