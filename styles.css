@@ -1,8 +1,9 @@
 :root{
     --tan1: #efede4;
     --tan-pres: #E4DBC8;
-    --dark-tan: #413805;
-    --lightblue: #5ba3cf;
+    --dark-tan: #5b3c32;
+    --lightblue: #79a7c8;
+    --darkgreen: #556f4d;
 }
 
 body{
@@ -28,6 +29,10 @@ body{
 .navbar{
     background-color: var(--tan1);
     font-family: ABeeZee;
+}
+
+.navbar-brand{
+    color: var(--darkgreen);
 }
 
 .nav-link:hover{
