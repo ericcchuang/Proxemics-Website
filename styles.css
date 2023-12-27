@@ -45,3 +45,6 @@ body{
     color: var(--dark-tan);
 }
 
+.poster{
+    max-width: 10%
+}
