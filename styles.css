@@ -46,5 +46,10 @@ body{
 }
 
 .poster{
-    max-width: 10%
+    max-width: 9em;
+}
+
+.poster:hover{
+    border: 5px solid var(--lightblue);
+    border-radius: 3px; 
 }
