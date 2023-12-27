@@ -1,0 +1,23 @@
+:root{
+    --tan1: #d9d2be;
+}
+
+body{
+    background-color: var(--tan1);
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.canva-frame{
+    position: flex; 
+    width: 100%; 
+    padding-top: 56.2500%; 
+    padding-bottom: 0; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden; 
+    border-radius: 8px;
+    will-change: transform;
+}
