@@ -3,8 +3,11 @@
     --tan-pres: #E4DBC8;
     --dark-tan: #5b3c32;
     --lightblue: #79a7c8;
+    --lighterblue: #c1d3e0;
     --darkgreen: #556f4d;
+    --lightgreen: #bfcebb;
     --peach: #f3a09e;
+    --lightpeach: #e6d1d0;
 }
 
 body{
@@ -50,9 +53,11 @@ body{
     max-width: 9em;
 }
 
-.btn-outline-blue {
+.btn-blue {
+    --bs-btn-bg: var(--lighterblue);
     --bs-btn-color: var(--lightblue);
     --bs-btn-border-color: var(--lightblue);
+    --bs-btn-border-width: 2px;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: var(--lightblue);
     --bs-btn-hover-border-color: var(--lightblue);
@@ -67,9 +72,11 @@ body{
     --bs-gradient: none;
 }
 
-.btn-outline-green {
+.btn-green {
+    --bs-btn-bg: var(--lightgreen);
     --bs-btn-color: var(--darkgreen);
     --bs-btn-border-color: var(--darkgreen);
+    --bs-btn-border-width: 2px;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: var(--darkgreen);
     --bs-btn-hover-border-color: var(--darkgreen);
@@ -84,9 +91,11 @@ body{
     --bs-gradient: none;
 }
 
-.btn-outline-peach {
+.btn-peach {    
+    --bs-btn-bg: var(--lightpeach);
     --bs-btn-color: var(--peach);
     --bs-btn-border-color: var(--peach);
+    --bs-btn-border-width: 2px;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: var(--peach);
     --bs-btn-hover-border-color: var(--peach);
