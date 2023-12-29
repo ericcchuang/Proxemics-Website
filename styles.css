@@ -164,9 +164,16 @@ body{
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: var(--tan-pres);
     --bs-gradient: none;
+}
+
+.visual-dia-sizing{
     min-height: 25em;
 }
 
 .participant-3-ugh{
     min-height: 32.5em;
+}
+
+.visual-dia-full{
+    width: 98%;
 }
