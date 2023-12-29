@@ -67,6 +67,14 @@ body{
     outline: 5px solid var(--tan-pres);
 }
 
+#affinity-map{
+    width:50%;
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    outline: 5px solid var(--tan-pres);
+}
 
 .poster{
     max-width: 9em;
