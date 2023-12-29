@@ -145,7 +145,6 @@ body{
 
 .visual-dia{
     max-width: 25em;
-    max-height: 20%; 
 }
 
 .btn-visual-dia {    
@@ -166,4 +165,8 @@ body{
     --bs-btn-disabled-border-color: var(--tan-pres);
     --bs-gradient: none;
     min-height: 25em;
+}
+
+.participant-3-ugh{
+    min-height: 32.5em;
 }
