@@ -81,6 +81,14 @@ body{
     max-width: 9em;
 }
 
+.poster-popup{
+    float:left;
+    max-width: 15em;
+    margin-left: 3%;
+    margin-right: 3%;
+    outline: 5px solid var(--mid-tan);
+}
+
 .btn-tan{    
     --bs-btn-bg: var(--tan-pres);
     --bs-btn-color: var(--dark-tan);
