@@ -49,6 +49,25 @@ body{
     color: var(--dark-tan);
 }
 
+.inline-left{
+    max-height: 12em;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    outline: 5px solid var(--tan-pres);
+}
+
+.inline-right{
+    max-height: 12em;
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    outline: 5px solid var(--tan-pres);
+}
+
+
 .poster{
     max-width: 9em;
 }
