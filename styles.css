@@ -82,7 +82,7 @@ body{
 }
 
 .poster-popup{
-    float:left;
+    float:right;
     max-width: 15em;
     margin-left: 3%;
     margin-right: 3%;
