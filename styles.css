@@ -20,6 +20,14 @@ body{
     color:var(--dark-tan);
 }
 
+a{
+    color: var(--lightblue);
+}
+
+a:hover{
+    color: var(--lighterblue);
+}
+
 .canva-frame{
     position: flex; 
     width: 100%; 
